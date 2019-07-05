@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="ELLIXstreet,SAM4Scity,SHCstate\n
+******TEL**9999-99-9999****C#2\n
+***March.01,*2013***PM*4:24\n
+apples******************$20.00\n
+grapes******************$30.00\n
+bananas*****************$40.00\n
+lemons******************$50.00\n
+oranges*****************$60.00\n
+Tax*excluded.**********$200.00\n
+Tax*****5.0%************$10.00\n
+______________________________\n
+Total******************$210.00\n
+"
+              android:textSize="20sp"/>
+</layout>

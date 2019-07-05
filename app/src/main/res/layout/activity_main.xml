@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+                name="listener"
+                type="android.view.View.OnClickListener" />
+
+        <variable
+                name="vm"
+                type="client.paycial.com.sam4sexample.viewModel.PrintViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".main.MainActivity">
+
+
+        <Button
+                android:id="@+id/reconnect"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:onClick="@{listener}"
+                android:text="재연결"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@id/print"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="reconnect" />
+
+        <Button
+                android:id="@+id/print"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:onClick="@{listener}"
+                android:text="@{vm.printModel.printerText}"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="연결중" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="@{vm.printModel.connected?View.GONE:View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="@id/print"
+                app:layout_constraintEnd_toEndOf="@id/print"
+                app:layout_constraintStart_toStartOf="@id/print"
+                app:layout_constraintTop_toTopOf="@id/print" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

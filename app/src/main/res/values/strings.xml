@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sam4sExample</string>
+
+    <string name="ordered_list_day_print_date">출력일 :</string>
+    <string name="ordered_list_day_text_header_title">일일 주문 현황</string>
+    <string name="ordered_list_day_text_subtitle1">메뉴별 내역서</string>
+    <string name="ordered_list_day_text_subtitle2">시간별 내역서</string>
+    <string name="ordered_list_day_text_under_subtitle1">* 정상 완료된 주문의 수량만 표기됩니다.</string>
+    <string name="ordered_list_day_text_under_subtitle2">* 정상 완료된 주문 건수만 표기됩니다.</string>
+    <string name="ordered_list_day_text_complete_count">정상 완료 건수</string>
+    <string name="ordered_list_day_whole_count">전체 주문건수</string>
+    <string name="ordered_list_day_canceled_count">취소 주문건수</string>
+    <string name="ordered_list_day_text_time">시간</string>
+    <string name="ordered_list_day_text_ordered_count">주문건수</string>
+    <string name="ordered_list_day_total_amt">총 금액</string>
+    <string name="ordered_list_day_menu_name">메뉴명</string>
+    <string name="ordered_list_day_count">수량</string>
+    <string name="ordered_list_day_tax">과세금액</string>
+    <string name="ordered_list_day_additional_tax">부가세액</string>
+    <string name="main_activity_order_list_day_hour">시</string>
+    <string name="main_activity_print_people">명</string>
+
+</resources>
