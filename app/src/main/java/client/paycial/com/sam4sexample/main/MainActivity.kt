@@ -15,11 +15,6 @@ import client.paycial.com.sam4sexample.viewModelFactory.PrintViewModelFactory
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-/**
- * as 팀
- * 1588-3492 sam4s 전화번호
- * sugil.woo@shc.co.kr
- * */
 class MainActivity : BaseActivity<ActivityMainBinding, PrintViewModel, PrintViewModelFactory>(),
     View.OnClickListener {
 
